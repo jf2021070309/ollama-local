@@ -50,16 +50,10 @@ coverage.xml
 *.pkl
 *.sqlite3
 
-# Archivos específicos a ignorar
+# Large files / reports
+Informe_Auditoria.pdf
 Resumen.pdf
-Caso.md
 Caso.pdf
 
-# Optional: exclude large generated PDF (uncomment if you don't want to track the final report)
-# Informe_Auditoria.pdf
-
-# Optional: exclude local Ollama/model caches if present
-# .ollama/
-
-# Keep evidencia/ unless you want to ignore screenshots; to ignore them uncomment:
+# Optional: ignore evidencia screenshots if you prefer
 # evidencia/
