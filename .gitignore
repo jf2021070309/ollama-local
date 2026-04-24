@@ -1,59 +1,20 @@
-# Node
-node_modules/
-dist/
-build/
-.vite/
-.cache/
-
-# Environment
-.env
-.env.local
-
-# Logs
-npm-debug.log*
-yarn-error.log
-pnpm-debug.log*
-*.log
-
-# Vite / build cache
-/.vite/
-
-# Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+
 .venv/
 venv/
 env/
-ENV/
-*.egg-info/
-.eggs/
-build-python/
 
-# Editor folders
-.vscode/
-.idea/
+.env
+.env.*
 
-# macOS / Windows
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
 .DS_Store
 Thumbs.db
-
-# Test / coverage
-.coverage
-.coverage.*
-.pytest_cache/
-coverage.xml
-
-# Misc
-*.pyc
-*.pkl
-*.sqlite3
-
-# Large files / reports
-Informe_Auditoria.pdf
-Resumen.pdf
-Caso.pdf
-
-# Optional: ignore evidencia screenshots if you prefer
-# evidencia/
+.vscode/
+.idea/
